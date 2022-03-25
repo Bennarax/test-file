@@ -1,9 +1,9 @@
 @RELATION angiographic
 
-@ATTRIBUTE chol 	NUMERIC
+@ATTRIBUTE chol     NUMERIC
 @ATTRIBUTE thalach	NUMERIC
 @ATTRIBUTE trestbps	NUMERIC
-@ATTRIBUTE class    	NUMERIC
+@ATTRIBUTE class    {Iris-setosa,Iris-versicolor,Iris-virginica}
 
 @DATA
 212,168,125,0
